@@ -11,7 +11,6 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400&display=swap" rel="stylesheet">
 
@@ -19,9 +18,16 @@
     <title>Sharon</title>
     
     <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
         body{
             font-family: 'Prompt', sans-serif;
         }
+        
+
         .avatar{
             background-image: url("Sharon.jpg");           
             width: 150px;
@@ -47,25 +53,27 @@
             background-color: rgb(35, 176, 211) !important;
         }
 
+        
+
     </style> 
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="#">Sharon005</a>
+        <a class="navbar-brand" href="index.html">Sharon005</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto ">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link " href="Contacts.jpg">Contacts</a>
-                        
-          </div>
-        </div>
-      </nav>
+        
+        <button type="button" class="btn btn-secondary "  >
+            <a href="Sharon_resume.pdf" style="color: aliceblue;">Download</a>    
+        </button>
+        
 
-    <main class="bg-light">
+      </nav>
+    <div class="container1">
+        
+        <main class="bg-light">
 
             <div class="container-fluid py-4">
             <div class="border rounded-circle avatar"></div>
@@ -75,29 +83,31 @@
         </div>
         
         <div>
-            <div class="badge badge-primary text-wrap" style="width: 5rem ;">
-                <p class="lead">
-                <u><li class="ml-1">ABOUT</li></u>
+            <div class="badge badge-primary text-wrap" style="width: 100%; height: 1cm;">
+            <h4>ABOUT</h4>
+                
             </div>
             <p class="font-weight-bold  ml-4" >
-                I Sharon, Currently I am in SE-ECS having enthusiastic in Web Design and in Electronoics Department of Robocon team 2020-21. My motive is to face Real World problems and to be a part as one of the member to finding its most appropriate soluton to it </p> 
+                I Sharon Shajan, Currently pursing B.E Electronics & Computer ScienceEngineering in Fr. Conceicao Rodrigues College ofEngineering. Enthusiast in Web Development. Love toexplore various technology and to
+                participate in varioushackatons</p> 
             </p>
-
-            <div class="badge badge-primary text-wrap" style="width: 5rem ;">
-                <p class="lead">                
-                <u><li>SKILLS</li></u>
+            <br>
+            <div class="badge badge-primary text-wrap" style="width:100%; height: 1cm;">              
+                <h4>SKILLS</h4>
             </div>      
                 <p class="font-weight-bold font-italic ml-4">
-                    WEB Development [HTML,CSS,Bootstrap(Basics),DJANGO]<br>
-                    Leadership<br>
-                    Problem Solving<br>
-                    </p>  
+                    HTML5<br>
+                    CSS3<br>
+                    JavaScript<br>
+                    Python<br>
+                    Django<br>
+
+                </p>  
             </p>
 
-
-            <div class="badge badge-primary text-wrap" style="width: 8rem ;">
-               <p class="lead">
-               <u><li>ACHIEVEMENTS</li></u>
+            <br>
+            <div class="badge badge-primary text-wrap" style="width: 100%; height: 1cm;">
+                <h4>ACHIEVEMENTS</h4>
             </div>
             <p class="font-weight-bold font-italic ml-4">
                 <a href="https://www.coursera.org/account/accomplishments/certificate/JCLX3UABJCCX" class="iconlink" target="_blank">1.Programming Foundations with JavaScript, HTML and CSS [COUSERA]</a> <br>
@@ -105,11 +115,10 @@
                 <a href="https://www.coursera.org/account/accomplishments/certificate/NC4MDF8AMPLW" class="iconlink" target="_blank">3.Programming for Everybody (Getting Started with Python) [COUSERA] </a><br>
                 <a href="https://www.coursera.org/account/accomplishments/certificate/U8CRQFLKHFG4" class="iconlink" target="_blank">4.Python Data Structures  [COUSERA]</a>
             </p>
+            <br>
 
-
-            <div class="badge badge-primary text-wrap" style="width: 6rem ;">
-                <p class="lead">
-                <u><li>CONTACTS</li></u> 
+            <div class="badge badge-primary text-wrap" style="width: 100%; height: 1cm;">
+                    <h4>CONTACT US</h4>
             </div>
             <p class="font-weight-bold font-italic ml-4">
                 Address: Irin Villa AB Compound Kherani Road Sakinaka (Andheri-E) <br>                      
@@ -118,6 +127,8 @@
             </p>            
         </div>
     </main>
+    </div>
+    
 
     <footer class="text-center  bg-info">
         <div class="row justify text-center">
@@ -138,7 +149,7 @@
             </ul>
             <p class="mt-4">
                <p class="text-muted">
-                Copyright @ Sharon 2020 | Made this by Bootstrap
+                Copyright @ Sharon 2020 | WT Assignment 1
                </p>
             </p>             
                                 
